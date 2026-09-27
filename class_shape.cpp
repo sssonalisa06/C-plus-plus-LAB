@@ -38,7 +38,6 @@ public:
         cout << "Destructor called." << endl;
     }
 };
-
 int main()
 {
     float r, l, w;
