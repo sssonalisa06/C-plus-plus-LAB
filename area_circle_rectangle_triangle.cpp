@@ -28,9 +28,16 @@ int main()
 	
 	cout<<"enter the length and breadth of rectangle:";
 	cin>>l>>b;
+	cout<<"Area of reactangle="<<AREA(l,b)<< endl;
 	cout<<"enter three sides of triangle:";
 	cin>>x>>y>>z;
+	if (x>0 && y>0 && z>0 && x+y>z && x+z>y && y+z>x)
+	{
 	cout<<"area of triangle="<<AREA(x,y,z)<< endl;
-	
+	}
+	else
+	{
+		cout<<"INVALID triangle sides"<< endl;
+	}
 	return 0;
 }
